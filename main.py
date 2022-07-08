@@ -18,6 +18,7 @@ ssl._create_default_https_context = ssl._create_unverified_context
 #take folder of images as arguemtn
 #run each image through yolo
 #add results to a text file
+#test
 
 #print ("hi")
 
