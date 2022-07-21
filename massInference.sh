@@ -1,4 +1,9 @@
 #! /bin/bash
+$#
+if [ "$#" != "3" ]; then
+	echo "Error: You must provide 3 Arguments. (Path to detect.py, path to image/folder, version of yolo" 
+fi
+
 echo $1 $2 $3
 commandPath=$1
 folderPath=$2
